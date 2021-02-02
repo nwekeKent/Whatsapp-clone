@@ -11,14 +11,15 @@ body{
 }
 .wrapper{
     max-width: 320px;
-    height: 600px;
     margin: 30px auto;
+    height: 600px;
     background-color:white;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     position: relative;
     box-shadow: -6px -6px 9px rgba(0,0,0,0.3), 6px 6px 9px rgba(0,0,0,0.3);
+    
     
     
 }
@@ -74,6 +75,15 @@ body{
     
    
 }
+.chats{
+    overflow-y: auto;
+ 
+}
+
+   
+::-webkit-scrollbar {
+    display: none;
+    }
 
 .chat-div{
     display: flex;
@@ -99,7 +109,7 @@ body{
 
 .lower-details div.bordered{
     height: 100%;
-    padding: 0 19px 8px 19px;
+    padding: 0 15px 8px 15px;
     
 }
 
@@ -185,6 +195,7 @@ body{
     box-shadow: 6px 6px 9px rgba(0,0,0,0.3);
     text-align: center;
     color: white;
-    font-size: 22px;
-    padding-top: 5px;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-right: 5px;
 }
